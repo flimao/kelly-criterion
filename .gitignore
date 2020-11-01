@@ -127,3 +127,32 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MS Office temp files, starts with ~$
+^~\$.*$
+
+# Huge accelerometer files
+*.acc
+
+**/Informações*.txt
+
+# Huge abaqus files
+**/*.obd
+**/*.sta
+**/*.stt
+**/*.jnl
+
+# video formats
+**/*.mov
+**/*.avi
+**/*.mp4
+**/*.wmv
+
+# feedback
+teste-pymc*.py
+
+# other
+test.py
+teste/
+**/secrets.py
+runscraper.bat
